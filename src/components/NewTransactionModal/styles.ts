@@ -57,7 +57,7 @@ export const TransactionTypeContainer = styled.div`
 
 interface RadioBoxProps {
   isActive: boolean;
-  activeColor: 'green' | 'red';
+  activecolor: 'green' | 'red';
 }
 
 const colors = {
@@ -73,8 +73,8 @@ export const RadioBox = styled.button<RadioBoxProps>`
   align-items: center;
   justify-content: center;
 
-  background: ${({ isActive, activeColor }) =>
-    isActive ? transparentize(0.9, colors[activeColor]) : 'transparent'};
+  background: ${({ isActive, activecolor }) =>
+    isActive ? transparentize(0.9, colors[activecolor]) : 'transparent'};
 
   &:hover {
     border-color: ${darken(0.1, '#D7D7D7')};
