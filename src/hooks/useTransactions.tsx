@@ -50,6 +50,7 @@ export function TransactionsProvider({ children }: TransactionsProviderProps) {
   );
 }
 
+// eslint-disable-next-line react-refresh/only-export-components
 export function useTransactions() {
   const context = React.useContext(TransactionsContext);
 
