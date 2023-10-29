@@ -82,5 +82,3 @@ $ npm install # ou yarn
 # inicie o servidor de desenvolvimento
 $ npm run start # ou yarn start
 ```
-
-💰 Controle suas finanças com o ESmoney! O projeto é uma pequena adaptação do dtmoney, da trilha Ignite React RocketSeat, uma aplicação web de controle de finanças, com extrato e saldo final.
