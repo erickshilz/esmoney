@@ -62,7 +62,6 @@ export function Summary() {
           <img src={totalImg} alt='Total' />
         </header>
         <strong>
-          R${' '}
           {new Intl.NumberFormat('pt-BR', {
             style: 'currency',
             currency: 'BRL',
